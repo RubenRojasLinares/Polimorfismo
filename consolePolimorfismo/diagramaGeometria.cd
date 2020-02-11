@@ -14,7 +14,7 @@
       <FileName>Cuadrado.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="consolePolimorfismo.RectanguloGeo">
+  <Class Name="consolePolimorfismo.Rectangulo">
     <Position X="4" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
