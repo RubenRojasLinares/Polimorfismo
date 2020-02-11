@@ -19,9 +19,6 @@ namespace consolePolimorfismo
             Console.WriteLine("\tArea del rombo es:" + rb.area);
             Console.WriteLine();
             Console.ReadLine();
-
-
-
         }
     }
 }

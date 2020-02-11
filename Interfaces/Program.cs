@@ -17,7 +17,8 @@ namespace Interfaces
             Figura figura = (Figura)rectangulo;
             IDibujable dibujable = (IDibujable)rectangulo;
             Console.Write("Se dibuja el objeto de la clase rectangulo con el ancho y largo deseados \n");
-
+            rectangulo.Mostrar();
+            
             rectangulo.Dibujar();
             Console.Write("Se dibuja el objeto de la clase dibujable con el ancho y largo desados \n");
 

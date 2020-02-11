@@ -10,35 +10,37 @@ namespace Interfaces
     }
     interface IEsDibujable : IDibujable
     {
-        bool PuedeDibujarse { get; } // llamada funcion porque esta fuera de una clase
+         bool PuedeDibujarse { get; } // propiedad
     }
 
     public class Figura
     {
-        public float alto, ancho;
-        public Figura(float alto, float ancho)
+        private float alto, ancho; // los campos son privados
+        public Figura(float alto, float ancho) // constructor es publico
         {
             this.alto = alto;
             this.ancho = ancho;
         }
 
-        public float Alto { get { return alto; } set { alto = value; } } // Propiedad
+        public float Alto { get { return alto; } set { alto = value; } } // Propiedad son publicas
         public float Ancho { get { return ancho; } set { ancho = value; } }// Propiedad
 
-        public void Mostrar()
+        public void Mostrar() // dependiendo del nivel de acceso privado publico o protegido.
         { // Metodo porque se encuentra dentro de una clase
-            Console.WriteLine("{0}:{1}x{2}", GetType(), Alto, Ancho);
+            Console.WriteLine("mostrar metodo {0}:{1}x{2}", GetType(), Alto, Ancho);
         }
     }
 
     class Cuadrado : Rectangulo
     {
         public Cuadrado(float lado) : base(lado, lado) { }
-        public float Lado { get { return alto; } set { alto = ancho = value; } }
+        public float Lado { get { return this.Alto; } set { this.Alto = this.Ancho = value; } }
     }
 
     public class Rectangulo : Figura, IDibujable
     {
+        
+
         public void Dibujar()
         {
             if (this.Alto > 0)
@@ -76,7 +78,10 @@ namespace Interfaces
                 }
             }
             Console.ReadLine();
-        }
+        }//se implementa el metodo en la clase.
+
+        
+
         public Rectangulo(float alto, float ancho) : base(alto, ancho) { }
     }
 }
