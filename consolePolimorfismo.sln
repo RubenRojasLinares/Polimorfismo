@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesAbstractas", "ClasesAbstractas\ClasesAbstractas.csproj", "{5A77CC2E-EA02-4B69-B719-8DE09B5190D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegadosEventos", "DelegadosEventos\DelegadosEventos.csproj", "{4613310C-7349-4181-B402-7D25A00D1852}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5A77CC2E-EA02-4B69-B719-8DE09B5190D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A77CC2E-EA02-4B69-B719-8DE09B5190D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A77CC2E-EA02-4B69-B719-8DE09B5190D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4613310C-7349-4181-B402-7D25A00D1852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4613310C-7349-4181-B402-7D25A00D1852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4613310C-7349-4181-B402-7D25A00D1852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4613310C-7349-4181-B402-7D25A00D1852}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
