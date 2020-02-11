@@ -4,7 +4,7 @@ using System.Text;
 
 namespace consolePolimorfismo
 {
-    public class Rectangulo : Geometria
+    public class RectanguloGeo : Geometria
     {
         public override void CalcularArea()
         {
